@@ -33,7 +33,7 @@ async function handler(req, res) {
     const db = client.db();
     try {
       const result = await db.collection('messages').insertOne(newMessage);
-      sendWelcomeEmail(email, name);
+      //  sendWelcomeEmail(email, name);
       newMessage.id = result.insertedId;
     } catch (error) {
       client.close();
