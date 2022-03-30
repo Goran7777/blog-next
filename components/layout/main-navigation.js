@@ -19,6 +19,9 @@ const MainNavigation = () => {
           <li>
             <Link href="/contact">Contact</Link>
           </li>
+          <li>
+            <Link href="/upload">Upload</Link>
+          </li>
         </ul>
       </nav>
     </header>

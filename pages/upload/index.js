@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import ContactForm from '../../components/contact/ContactForm';
+import UploadForm from '../../components/upload/UploadForm';
 
 const ContactPage = () => {
   return (
@@ -11,7 +11,7 @@ const ContactPage = () => {
           content="Here you can contact me via contact form.Thank you"
         />
       </Head>
-      <ContactForm />
+      <UploadForm />
     </>
   );
 };

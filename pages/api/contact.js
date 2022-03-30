@@ -1,5 +1,5 @@
 import { MongoClient } from 'mongodb';
-const { sendWelcomeEmail } = require('./email');
+const { sendWelcomeEmail } = require('../../helper/email');
 
 async function handler(req, res) {
   if (req.method === 'POST') {
