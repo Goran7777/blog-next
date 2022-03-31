@@ -90,16 +90,16 @@ const UploadForm = () => {
       <form className={classes.form}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label htmlFor="email">Your Email</label>
+            <label htmlFor="file">Your file</label>
             <input
-              type="email"
-              id="email"
+              type="file"
+              id="file"
               required
               //  value={enteredEmail}
               //  onChange={(event) => setEnteredEmail(event.target.value)}
             />
           </div>
-          <div className={classes.control}>
+          {/* <div className={classes.control}>
             <label htmlFor="name">Your Name</label>
             <input
               type="text"
@@ -108,9 +108,9 @@ const UploadForm = () => {
               //  value={enteredName}
               //   onChange={(event) => setEnteredName(event.target.value)}
             />
-          </div>
+          </div> */}
         </div>
-        <div className={classes.control}>
+        {/* <div className={classes.control}>
           <label htmlFor="message">Your Message</label>
           <textarea
             id="message"
@@ -119,10 +119,10 @@ const UploadForm = () => {
             // value={enteredMessage}
             // onChange={(event) => setEnteredMessage(event.target.value)}
           ></textarea>
-        </div>
+        </div> */}
 
         <div className={classes.actions}>
-          <button>Upload files</button>
+          <button>Upload file</button>
         </div>
       </form>
       {/* {notification && (
